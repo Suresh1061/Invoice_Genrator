@@ -23,8 +23,8 @@ const AuthWrapper: React.FC<Props> = ({ children }) => {
                </section>
 
                {/* Background Effects */}
-               <div className="absolute bottom-0 left-0 rounded-full shadow-[40px_50px_500px_100px_green]" />
-               <div className="absolute top-[30%] right-0 rounded-full shadow-[10px_50px_500px_100px_violet]" />
+               <div className="absolute bottom-0 left-0 rounded-full shadow-[40px_50px_500px_50px_green] md:shadow-[40px_50px_500px_100px_green]" />
+               <div className="absolute top-[30%] right-0 rounded-full shadow-[10px_50px_500px_50px_violet] md:shadow-[10px_50px_500px_100px_violet]" />
           </main>
      );
 };
