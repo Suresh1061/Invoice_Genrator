@@ -52,7 +52,7 @@ const Register: React.FC = () => {
                          </p>
                     </div>
                     <Form {...form}>
-                         <form onSubmit={form.handleSubmit(handleSubmitForm)} className='space-y-5'>
+                         <form onSubmit={form.handleSubmit(handleSubmitForm)} className='space-y-5 mt-5'>
                               <InputField
                                    label='Name'
                                    name='name'

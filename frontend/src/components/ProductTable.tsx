@@ -33,13 +33,13 @@ const ProductTable: React.FC = () => {
      );
 
      return (
-          <Table className="w-full rounded-lg mt-8 mb-2">
+          <Table className="w-full rounded-t-lg mt-8 mb-2 overflow-hidden">
                <TableHeader>
                     <TableRow className="text-black bg-white">
-                         <TableHead className="min-w-[200px]">Product Name</TableHead>
-                         <TableHead className="min-w-[100px] text-right px-6">Price</TableHead>
+                         <TableHead className="min-w-[150px]">Product Name</TableHead>
+                         <TableHead className="min-w-[120px] text-right px-6">Price</TableHead>
                          <TableHead className="min-w-[100px] text-center">Quantity</TableHead>
-                         <TableHead className="min-w-[100px] text-right px-6">Total Price</TableHead>
+                         <TableHead className="min-w-[150px] text-right px-6">Total Price</TableHead>
                          <TableHead className="min-w-[50px] text-center">Action</TableHead>
                     </TableRow>
                </TableHeader>
